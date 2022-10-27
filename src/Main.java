@@ -41,8 +41,8 @@ public class Main {
             }
         }
 
-        System.out.println("Максимальное количество: " + maxInjects);
-        System.out.println("Минимальное количество: " + minInjects);
+        System.out.println("Максимальное количество символов: " + maxInjects);
+        System.out.println("Минимальное количество символов: " + minInjects);
     }
 
     private static int getMin(Collection<Integer> values) {
@@ -55,7 +55,6 @@ public class Main {
         }
         return min;
     }
-
 
     private static int getMax(Collection<Integer> values) {
         List<Integer> integers = new ArrayList<>(values);
